@@ -1,0 +1,12 @@
+<form #formLogin action="{{urlLogin}}" method="post">
+    <input name="username"/>
+    <input name="password"/>
+</form>
+<ul>
+    <li *ngFor="let usuario of usuarios">
+        <a (click)="selecionar(usuario)">
+            {{usuario.identificacao}} - {{usuario.nome}}
+            <span>{{usuario.cpf}} - {{usuario.email}}</span>
+        </a>
+    </li>
+</ul>

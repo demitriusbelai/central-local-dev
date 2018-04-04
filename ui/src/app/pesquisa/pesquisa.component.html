@@ -1,0 +1,6 @@
+<div id="searchbox">
+    <input class="form-control" #searchBox placeholder="Pesquise usuários" (keyup)="pesquisar(searchBox.value)"/>
+</div>
+<div id="lista">
+    <app-usuarios [usuarios]="usuarios"></app-usuarios>
+</div>

@@ -1,0 +1,16 @@
+ul{
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 1em;
+  cursor: pointer;
+}
+li a:hover {
+  background-color: LightGray;
+}
